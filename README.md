@@ -5,24 +5,14 @@ Plataforma para conectar professores e alunos. Desenvolvido durante a Next Level
 ### Screenshots
 
 #### Web
-
-<div style="display: flex; flex-direction: row; justify-content:center;">
-   <div style="display: flex; flex-direction: column; justify-content: space-evenly; margin-right: '6px';">
-      <img src="./.github/home.png" width="475">
-      <img src="./.github/encontrar-proffy.png" width="475">
-   </div>
-
-   <img src="./.github/cadastro-aula.PNG" width="400">
-</div>
+<p align="center">
+  <img alt="Web screenshot" src="./.github/web.png">
+</p>
 
 #### Mobile (Android)
-
-<div style="display: flex; flex-direction: 'row';">
-   <img src="./.github/m_home.png" width="180" style="margin-right: '5px'">
-   <img src="./.github/m_cadastro_aula.png" width="180" style="margin-right: '5px'">
-   <img src="./.github/m_encontrar_proffy_1.png" width="180" style="margin-right: '5px'">
-   <img src="./.github/m_encontrar_proffy_2.png" width="180">
-</div>
+<p align="center">
+  <img alt="Web screenshot" src="./.github/mobile.png">
+</p>
 
 ### Como rodar?
 
