@@ -29,13 +29,18 @@ function TeacherList () {
     setIsFiltersVisible(!isFiltersVisible);
   }
 
+  function translateWeekDay(weekDay: string) {
+    const diasDaSemana = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado']
+    return diasDaSemana.indexOf(weekDay.toLowerCase());
+  }
+
   async function handleFiltersSubmit(){
     loadFavorites();
 
     const response = await api.get('classes', {
       params: {
         subject,
-        week_day,
+        week_day: translateWeekDay(week_day),
         time
       }
     });
