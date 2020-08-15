@@ -6,10 +6,10 @@ Plataforma para conectar professores e alunos. Desenvolvido durante a Next Level
 
 #### Web
 
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <div style="display: flex; flex-direction: 'column';">
-      <img src="./.github/home.png" width="400">
-      <img src="./.github/encontrar-proffy.png" width="400">
+<div style="display: flex; flex-direction: row; justify-content:center;">
+   <div style="display: flex; flex-direction: column; justify-content: space-evenly; margin-right: '6px';">
+      <img src="./.github/home.png" width="475">
+      <img src="./.github/encontrar-proffy.png" width="475">
    </div>
 
    <img src="./.github/cadastro-aula.PNG" width="400">
